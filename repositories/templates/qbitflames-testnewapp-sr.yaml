@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: qbitflames
+    provider: github
+    repository: testnewapp
+  name: qbitflames-testnewapp
+spec:
+  description: Imported application for qbitflames/testnewapp
+  httpCloneURL: https://github.com/qbitflames/testnewapp.git
+  org: qbitflames
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testnewapp
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/qbitflames/testnewapp.git
