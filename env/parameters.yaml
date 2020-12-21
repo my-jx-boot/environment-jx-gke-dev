@@ -1,0 +1,10 @@
+adminUser:
+  password: local:jx-gke/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: envoyfacilitation@gmail.com
+  token: local:jx-gke/pipelineUser:token
+  username: my-jx-boot
+prow:
+  hmacToken: local:jx-gke/prow:hmacToken
